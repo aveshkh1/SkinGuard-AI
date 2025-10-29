@@ -45,9 +45,6 @@ The web interface is built using **Gradio**, providing an easy-to-use interface 
   - 🟢 *Benign* — Safe  
   - 🔴 *Malignant* — Needs medical attention  
 
----
-📁 Project Structure
-
 
 ## 🖥️ Usage
 ```bash
