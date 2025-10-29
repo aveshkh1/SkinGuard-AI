@@ -47,9 +47,37 @@ The web interface is built using **Gradio**, providing an easy-to-use interface 
 
 ---
 
-## 🖥️ Usage
+## 🖥️ Usage, Structure, and License
 
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/aveshkh1/Skin-Guard-AI.git
-   cd Skin-Guard-AI
+```bash
+# 1️⃣ Clone this repository
+git clone https://github.com/aveshkh1/Skin-Guard-AI.git
+cd Skin-Guard-AI
+
+# 2️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 3️⃣ Run the web app
+python app.py
+
+
+# 📁 Project Structure
+Skin-Guard-AI/
+│
+├── app.py                     # Gradio web app
+├── requirements.txt           # Python dependencies
+├── skin_guard_notebook.ipynb  # Kaggle notebook for model training
+├── README.md                  # Project documentation
+
+
+# 📜 License
+This project is licensed under the MIT License.  
+You’re free to use, modify, and distribute it with proper attribution.
+
+
+# 👨‍💻 Author
+Avesh Kharani  
+AI & Deep Learning Enthusiast  
+
+GitHub:  aveshkh1  
+LinkedIn: aveshkharani7483
