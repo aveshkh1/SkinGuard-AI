@@ -55,19 +55,21 @@ The web interface is built using **Gradio**, providing an easy-to-use interface 
    cd Skin-Guard-AI
    
 2.**Install dependencies**
+  ```bash
    pip install -r requirements.txt
    python app.py
 
 3.**Run the web app**
-    python app.py
+   ```bash
+  python app.py
 
 ## 📁 Project Structure
-Skin-Guard-AI/
-│
-├── app.py                     # Gradio web app
-├── requirements.txt           # Python dependencies
-├── skin_guard_notebook.ipynb  # Kaggle notebook for model training
-├── README.md                  # Project documentation
+      Skin-Guard-AI/
+      │
+      ├── app.py                     # Gradio web app
+      ├── requirements.txt           # Python dependencies
+      ├── skin_guard_notebook.ipynb  # Kaggle notebook for model training
+      ├── README.md                  # Project documentation
 
 
 ## 📜 License
