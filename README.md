@@ -43,41 +43,44 @@ The web interface is built using **Gradio**, providing an easy-to-use interface 
 - Built with **Gradio** for local testing.  
 - Users can upload images and see predictions instantly.  
   - 🟢 *Benign* — Safe  
-  - 🔴 *Malignant* — Needs medical attention
+  - 🔴 *Malignant* — Needs medical attention  
 
 ---
+📁 Project Structure
 
-## 🖥️ Usage, Structure, and License
 
+## 🖥️ Usage
 ```bash
-# 1️⃣ Clone this repository
+# Clone this repository
 git clone https://github.com/aveshkh1/Skin-Guard-AI.git
 cd Skin-Guard-AI
 
-# 2️⃣ Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# 3️⃣ Run the web app
-python app.py
+# Run the web app
+python app.py 
+```
+📁 Project Structure
+``` bash
+    Skin-Guard-AI/
+    │
+    ├── app.py                     # Gradio web app
+    ├── requirements.txt           # Python dependencies
+    ├── skin_guard_notebook.ipynb  # Kaggle notebook for model training
+    ├── README.md                  # Project documentation
+```
 
+📜 License
+``` bash
+This project is licensed under the MIT License — you’re free to use, modify, and distribute it.
+```
 
-# 📁 Project Structure
-Skin-Guard-AI/
-│
-├── app.py                     # Gradio web app
-├── requirements.txt           # Python dependencies
-├── skin_guard_notebook.ipynb  # Kaggle notebook for model training
-├── README.md                  # Project documentation
+👨‍💻 Authors
+``` bash
+Avesh Kharani
+AI & Deep Learning Enthusiast
 
+🔗 GitHub:https://github.com/aveshkh1
 
-# 📜 License
-This project is licensed under the MIT License.  
-You’re free to use, modify, and distribute it with proper attribution.
-
-
-# 👨‍💻 Author
-Avesh Kharani  
-AI & Deep Learning Enthusiast  
-
-GitHub: https://github.com/aveshkh1 
-LinkedIn:https://www.linkedin.com/in/aveshkharani7483
+🔗 LinkedIn: https://www.linkedin.com/in/aveshkharani7483
