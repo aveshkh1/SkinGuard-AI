@@ -79,5 +79,5 @@ You’re free to use, modify, and distribute it with proper attribution.
 Avesh Kharani  
 AI & Deep Learning Enthusiast  
 
-GitHub:  aveshkh1  
-LinkedIn: aveshkharani7483
+GitHub: https://github.com/aveshkh1 
+LinkedIn:https://www.linkedin.com/in/aveshkharani7483
